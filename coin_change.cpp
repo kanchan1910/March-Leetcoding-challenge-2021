@@ -27,7 +27,7 @@ public:
     int coinChange(vector<int>& coins, int amount) 
     {
         int n = coins.size();
-    vector<vector<int>>dp(n + 5, vector<int>(amount + 5, -1));
+    vector<vector<int>>dp(n + 1, vector<int>(amount + 1, -1));
         int ans = fun(coins, amount , dp, 0);
        
         if(ans == 100005)
