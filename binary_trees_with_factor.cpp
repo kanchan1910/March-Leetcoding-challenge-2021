@@ -17,7 +17,7 @@ public:
 
                 }
             }
-                                cout << m[arr[i]] << " ";
+            //                    cout << m[arr[i]] << " ";
             ans = (ans + m[arr[i]] ) % 1000000007;
         }
         return ans;
